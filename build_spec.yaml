@@ -12,4 +12,4 @@ steps:
 outputArtifacts:
   - name: built-gh-repo
     type: BINARY
-    location: ${OCI_WORKSPACE_DIR}/build/repo.tgz
+    location: ${OCI_PRIMARY_SOURCE_DIR}/repo.tgz
