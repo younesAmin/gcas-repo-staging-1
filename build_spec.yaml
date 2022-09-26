@@ -10,6 +10,6 @@ steps:
       tar -cvzf repo.tgz ./
       ls
 outputArtifacts:
-  - name: built-gh-repo
+  - name: artifact
     type: BINARY
     location: ${OCI_PRIMARY_SOURCE_DIR}/repo.tgz
